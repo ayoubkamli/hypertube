@@ -1,0 +1,48 @@
+{
+  "name": "1337-hypertube",
+  "version": "1.0.0",
+  "description": "torrent streaming project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayoubkamli/hypertube.git"
+  },
+  "keywords": [
+    "1337"
+  ],
+  "author": "akamli-mmeqdar-falloul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayoubkamli/hypertube/issues"
+  },
+  "homepage": "https://github.com/ayoubkamli/hypertube#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.5",
+    "cors": "^2.8.5",
+    "download-file": "^0.1.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "image-size": "^0.8.3",
+    "imdb-api": "^4.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "multiparty": "^4.2.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.2",
+    "opensubtitles-api": "^5.1.0",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth20": "^2.0.0",
+    "path": "^0.12.7",
+    "thepiratebay": "^1.4.7",
+    "torrent-stream": "^1.2.0"
+  }
+}
